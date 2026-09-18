@@ -170,7 +170,7 @@
           ]
         }
       ],
-      "now": "Collect available items; return for marked pickups",
+      "now": "Pink chip is optional; skip it for Gold Armor",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/709.html",
       "sprite": {
         "src": "assets/x3-toxic-seahorse-boss-sprite.png",
@@ -425,7 +425,7 @@
           ]
         }
       ],
-      "now": "Collect available items; return for marked pickups",
+      "now": "Pink chip is optional; skip it for Gold Armor",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/714.html",
       "sprite": {
         "src": "assets/x3-crush-crawfish-boss-sprite.png",
@@ -595,7 +595,7 @@
           ]
         }
       ],
-      "now": "Collect available items; return for marked pickups",
+      "now": "Pink chip is optional; skip it for Gold Armor",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/716.html",
       "sprite": {
         "src": "assets/x3-gravity-beetle-boss-sprite.png",
@@ -680,7 +680,7 @@
           ]
         }
       ],
-      "now": "Collect the stage pickups",
+      "now": "Pink chip is optional; skip it for Gold Armor",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/717.html",
       "sprite": {
         "src": "assets/x3-blast-hornet-boss-sprite.png",
@@ -825,7 +825,7 @@
       "author": "MegaYoYo"
     }
   ],
-  "routeIntro": "The four pink-chip locations are alternatives, not four items to collect. The completionist route replaces them with Gold Armor and adds Zero’s saber.",
+  "routeIntro": "Only one pink enhancement chip can be installed per run. These four locations are alternatives, not four items to collect. The completionist route skips them for Gold Armor and adds Zero’s saber.",
   "flowIntro": "The numbered route uses weapons already available. A return arrow marks a pickup saved for cleanup.",
   "basicsHtml": "<summary>Controls, tanks &amp; returning to stages</summary><p>Directions use actions rather than controller buttons: Jump, Dash, Fire and Special. Check your control mapping. Heart Tanks increase maximum health; Sub Tanks store excess health collected while your life bar is full. Exit from the pause menu works in cleared stages.</p><p>For an air dash, jump normally first; a dash-jump uses that movement allowance. Hold Up with Dash for the vertical air dash. Charge special weapons only after finding the Arm Parts. Keep Zero alive if you want his saber later.</p>",
   "sourcesHtml": "<p>Independent fan guide. Game imagery © Capcom. Locations and routes were checked against the references below; instructions are written for this guide. Screenshots and sprite captures belong to their credited contributors.</p><ul><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/723.html\" target=\"_blank\" rel=\"noopener\">Vile and permanent destruction ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/719.html\" target=\"_blank\" rel=\"noopener\">Mosquitus and the saber: Doppler Stage 2 ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/718.html\" target=\"_blank\" rel=\"noopener\">Gold Armor: Doppler Stage 1 ↗</a></li><li><a href=\"https://strategywiki.org/wiki/Mega_Man_X3/Ride_Armor_Modules\" target=\"_blank\" rel=\"noopener\">Ride Armor requirements ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/710.html\" target=\"_blank\" rel=\"noopener\">Upgrade and chip inventory ↗</a></li></ul><p>Boss sprite source: <a href=\"https://megaman.retropixel.net/mmx/3/sprites.php\">Mega Man XZ / RetroPixel ↗</a>. Screenshot credits below identify the original contributors; these are not original captures for this guide.</p>",
