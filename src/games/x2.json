@@ -477,7 +477,7 @@
     "id": "hunters",
     "label": "MISSABLE · PERMANENT FOR THIS RUN",
     "title": "Want to restore Zero? Stop after boss 2.",
-    "text": "After Wheel Gator, recover all three Zero parts before defeating another Maverick. The X-Hunters can leave permanently as you clear bosses. Return trips cannot undo that choice.",
+    "text": "After Wheel Gator, recover all three Zero parts before defeating another Maverick. Why stop? More boss clears can make the remaining X-Hunters leave permanently. After taking a part in an uncleared stage, lose your remaining lives and choose Continue at Game Over to return to stage select. You keep Zero parts and permanent upgrades. Do not defeat the stage boss just to leave. On a previously cleared stage, use Pause → Exit instead.",
     "link": "#zero-details",
     "linkText": "Open the Zero-parts detour"
   },
@@ -582,50 +582,143 @@
   "detour": {
     "id": "zero-details",
     "title": "The Zero-parts detour",
-    "intro": "After boss 2, check the stage-select map for X-Hunter markers. Their stage assignments move; there is no fixed hunter order.",
+    "intro": "After boss 2, check the stage-select map for X-Hunter markers. Agile, Serges and Violen move between uncleared stages; no hunter has a fixed stage. These are Zero’s reconstruction parts, separate from X’s Dr. Light armor upgrades.",
     "steps": [
-      "Enter a marked stage and reach its side room before the Maverick boss. Defeat the hunter and take the part.",
-      "Repeat until you have beaten Violen, Serges and Agile. A charged X-Buster works if you lack their weaknesses.",
-      "To reshuffle the markers, enter a cleared stage and use Exit. In an uncleared stage, take the part, then use a game over to return to stage select without defeating its Maverick. You keep the part.",
-      "Only after all three parts are recovered, resume at Bubble Crab."
+      "Enter a stage with an X-Hunter marker. Use the entrance pictures below to find its side room before the regular Maverick boss. An unoccupied hunter door will not open.",
+      "Defeat the X-Hunter and receive the Zero part. A charged X-Buster works if you lack the hunter’s weakness.",
+      "Leave without defeating the stage’s Maverick: lose your remaining lives, then choose Continue at Game Over to return to stage select. Collected Zero parts and permanent upgrades remain yours. Exit is available only in previously cleared stages.",
+      "Check the map again and repeat for the remaining hunters. To change their assignments, enter a previously cleared stage and use Pause → Exit.",
+      "Once you have all three parts, resume the boss route at Bubble Crab."
     ],
     "doors": [
       {
         "stage": "sponge",
-        "text": "At the rising elevators, slide down the wall below the lifts and follow the lower passage right."
+        "text": "At the large rising elevator, slide down the left wall below the platform. Follow the lower passage right to the door; do not fall into the pit below.",
+        "media": [
+          {
+            "src": "assets/x2-sponge-hunter-entrance.png",
+            "width": 416,
+            "height": 312,
+            "source": "https://www.youtube.com/watch?v=7DorArmLbIg&t=68s",
+            "original": "https://www.youtube.com/watch?v=7DorArmLbIg&t=68s",
+            "credit": "Gameplay capture: PrimeraEspada91 · Game imagery © Capcom.",
+            "alt": "Wire Sponge — approach to the X-Hunter entrance"
+          }
+        ]
       },
       {
         "stage": "gator",
-        "text": "Ride the second upward platform past the normal exit, through the spike-lined shaft to the top-right door."
+        "text": "After the heart’s spike wall and the ceiling bird generators, ride the second upward platform past the normal exit on the left. Keep riding through the spike-lined shaft, then jump off at the top-right ledge before the spiked ceiling. The hunter door is on the right.",
+        "media": [
+          {
+            "src": "assets/x2-gator-hunter-entrance.png",
+            "width": 416,
+            "height": 312,
+            "source": "https://www.youtube.com/watch?v=7DorArmLbIg&t=461s",
+            "original": "https://www.youtube.com/watch?v=7DorArmLbIg&t=461s",
+            "credit": "Gameplay capture: PrimeraEspada91 · Game imagery © Capcom.",
+            "alt": "Wheel Gator — approach to the X-Hunter entrance"
+          }
+        ]
       },
       {
         "stage": "crab",
-        "text": "Follow the giant fish to the far-right underwater wall. Climb to the passage above the normal route into the base."
+        "text": "Cross the underwater area to the far-right wall where the giant fish finishes its route. Climb above the normal entrance into the base to reach the hunter door. Destroy the fish if it obstructs your approach.",
+        "media": [
+          {
+            "src": "assets/x2-crab-hunter-entrance.png",
+            "width": 416,
+            "height": 312,
+            "source": "https://www.youtube.com/watch?v=7DorArmLbIg&t=143s",
+            "original": "https://www.youtube.com/watch?v=7DorArmLbIg&t=143s",
+            "credit": "Gameplay capture: PrimeraEspada91 · Game imagery © Capcom.",
+            "alt": "Bubble Crab — approach to the X-Hunter entrance"
+          }
+        ]
       },
       {
         "stage": "stag",
-        "text": "Use the second beetle to break the upper wall. Climb through the opening to the side room."
+        "text": "After escaping the rising lava, cross the sinking pillars to the second beetle. Lure it into the upper breakable wall, then climb through that opening to the hunter door. Do this before destroying the beetle.",
+        "media": [
+          {
+            "src": "assets/x2-stag-hunter-entrance.png",
+            "width": 416,
+            "height": 312,
+            "source": "https://www.youtube.com/watch?v=7DorArmLbIg&t=238s",
+            "original": "https://www.youtube.com/watch?v=7DorArmLbIg&t=238s",
+            "credit": "Gameplay capture: PrimeraEspada91 · Game imagery © Capcom.",
+            "alt": "Flame Stag — approach to the X-Hunter entrance"
+          }
+        ]
       },
       {
         "stage": "moth",
-        "text": "In the long vertical shaft, reach the passage guarded by a shield robot. Defeat it and dash wall-jump onto its ledge."
+        "text": "After the first Old Robot miniboss, descend the long ladder. The hunter passage is on the right, behind a shield robot. Defeat it and dash-jump from the wall below its ledge, or air-dash from the opposite wall if you already have Leg Parts.",
+        "media": [
+          {
+            "src": "assets/x2-moth-hunter-entrance.png",
+            "width": 416,
+            "height": 312,
+            "source": "https://www.youtube.com/watch?v=7DorArmLbIg&t=636s",
+            "original": "https://www.youtube.com/watch?v=7DorArmLbIg&t=636s",
+            "credit": "Gameplay capture: PrimeraEspada91 · Game imagery © Capcom.",
+            "alt": "Morph Moth — approach to the X-Hunter entrance"
+          }
+        ]
       },
       {
         "stage": "centipede",
-        "text": "Dash ahead of the falling blocks. Reach the door at the far end before the blocks seal the passage."
+        "text": "After the sword miniboss, dash right through the room with falling blocks. The hunter door is at the lower-right end, beside a large health pickup. Reach it before a block seals the entrance; if blocked, retry the stage.",
+        "media": [
+          {
+            "src": "assets/x2-centipede-hunter-entrance.png",
+            "width": 416,
+            "height": 312,
+            "source": "https://www.youtube.com/watch?v=7DorArmLbIg&t=933s",
+            "original": "https://www.youtube.com/watch?v=7DorArmLbIg&t=933s",
+            "credit": "Gameplay capture: PrimeraEspada91 · Game imagery © Capcom.",
+            "alt": "Magna Centipede — approach to the X-Hunter entrance"
+          }
+        ]
       },
       {
         "stage": "snail",
-        "text": "Use the Ride Armor to smash the crystal barrier near where you find it. Ride the small moving platforms up the shaft."
+        "text": "Keep the Ride Armor. At the crystal-blocked spike pit, get out and move right to trigger the giant sliding crystal, then return for the armor. Ride across to the right ledge, jump back onto the upper-left ledge above the ladder and punch through its crystal blocks. Jump out onto the small flying platforms and ride them up to the door.",
+        "media": [
+          {
+            "src": "assets/x2-snail-hunter-entrance.png",
+            "width": 416,
+            "height": 312,
+            "source": "https://www.youtube.com/watch?v=7DorArmLbIg&t=725s",
+            "original": "https://www.youtube.com/watch?v=7DorArmLbIg&t=725s",
+            "credit": "Gameplay capture: PrimeraEspada91 · Game imagery © Capcom.",
+            "alt": "Crystal Snail — approach to the X-Hunter entrance"
+          }
+        ]
       },
       {
         "stage": "ostrich",
-        "text": "Near the beginning, use Spin Wheel to cut the breakable blocks beside the downward ladder."
+        "text": "Near the start, stop at the first downward ladder. Fire Spin Wheel into the sand wall on its right to open a horizontal tunnel. Walk through to the hunter door.",
+        "media": [
+          {
+            "src": "assets/x2-ostrich-hunter-entrance.png",
+            "width": 416,
+            "height": 312,
+            "source": "https://www.youtube.com/watch?v=7DorArmLbIg&t=163s",
+            "original": "https://www.youtube.com/watch?v=7DorArmLbIg&t=163s",
+            "credit": "Gameplay capture: PrimeraEspada91 · Game imagery © Capcom.",
+            "alt": "Overdrive Ostrich — approach to the X-Hunter entrance"
+          }
+        ]
       }
     ],
     "recoveryNote": "Ordinary return trips cannot recover a part after its X-Hunter has left. Continue on the standard path, or restore an earlier save/password to preserve the completionist route.",
     "timing": "After boss 2",
-    "sourcesHtml": "<p class=\"source-link\"><a href=\"https://www.mmhp.net/GameHints/MMX2.html\" target=\"_blank\" rel=\"noopener\">Hunter rules & door reference ↗</a> · <a href=\"https://www.honestgamers.com/guides/mega-man-x2/31/read/695.html\" target=\"_blank\" rel=\"noopener\">Hunter fight strategies ↗</a></p>"
+    "sourcesHtml": "<p class=\"source-link\"><a href=\"https://www.mmhp.net/GameHints/MMX2.html\" target=\"_blank\" rel=\"noopener\">Hunter rules & door reference ↗</a> · <a href=\"https://www.honestgamers.com/guides/mega-man-x2/31/read/695.html\" target=\"_blank\" rel=\"noopener\">Hunter fight strategies ↗</a></p>",
+    "exitWarning": {
+      "title": "Why Game Over?",
+      "text": "Exit is locked while that stage’s Maverick is alive. Beating the Maverick just to get out advances the boss count and can make remaining X-Hunters leave for good. Game Over → Continue returns you to the map without that risk; Zero parts and permanent upgrades stay collected."
+    }
   },
   "extraSections": [
     "<section id=\"shoryuken\"><div class=\"section-head\"><h2>Bonus: Shoryuken</h2><span class=\"eyebrow\">X-Hunter stage 3</span></div><p><b>Bring:</b> all 4 armor parts, all 8 hearts, all 4 Sub Tanks, and full health when entering the hidden capsule room. Zero’s parts are not required. Bring filled tanks to heal after the spike section.</p><ol><li>After the vertical elevator section, take the <b>upper ladder</b>. Freeze a bat with Crystal Hunter and use it as a step.</li><li>Cross the upper spike route with air dashes and charged Speed Burner. At the final curved spike passage, move right, drop, then dash back left toward the 1-Up.</li><li>At the following downward shaft, <b>slide against the left wall</b>. Refill health before entering the hidden passage. Walk left to the capsule.</li></ol><p>To use it: at full health, stand on the ground with the X-Buster selected. Press <b>forward → down → down-forward + Fire</b>. Mirror the directions when facing left.</p><p class=\"route-intro\"><a href=\"https://gamefaqs.gamespot.com/snes/588480-mega-man-x2/cheats\">Unlock requirements ↗</a> · <a href=\"https://www.mmhp.net/GameHints/MMX2.html\">Spike route and input ↗</a></p></section>",
@@ -656,14 +749,14 @@
     {
       "afterStage": "gator",
       "title": "STOP AFTER 02 · Restoring Zero?",
-      "text": "Recover all 3 parts before boss 3.",
+      "text": "More boss clears can make hunters leave permanently. Take each part, then Game Over → Continue; the part stays collected.",
       "href": "#zero-details",
       "linkText": "Take the detour",
-      "stageText": "After this boss, stop and recover all 3 Zero parts."
+      "stageText": "Recover all 3 Zero parts before another Maverick: more boss clears can make hunters leave permanently. After each part, lose your remaining lives → Game Over → Continue to return to stage select; you keep the part. Exit works only in previously cleared stages."
     }
   ],
   "routeIntro": "Both paths can collect every armor part, heart and Sub Tank. The difference is the Zero detour and the final encounter.",
   "flowIntro": "Read from 01 to 08. Each reward is the next boss’s weakness. Start Wire Sponge with the X-Buster; use Sonic Slicer in his rematch.",
   "basicsHtml": "<summary>Before you start: movement, charging and saving</summary><ul><li>Ground dash is available from the start. Leg Parts add air dash: jump normally, then press Dash.</li><li>Charged special weapons require Arm Parts. Hold Fire with that weapon selected, then release.</li><li>“Need” describes the method shown; advanced tricks can bypass some requirements.</li><li>Permanent pickups survive death. On completed stages, use Exit from the pause menu. Record your password before ending a session.</li><li>Fill Sub Tanks by collecting health at full life; use them from the pause menu.</li></ul>",
-  "sourcesHtml": "<p>Pickup screenshots by <a href=\"https://www.honestgamers.com/guides/mega-man-x2/31/\" target=\"_blank\" rel=\"noopener\">HonestGamers</a> contributors, shown with their source links. These screenshots were made by someone else; they are not original captures for this guide. Game artwork and sprites © Capcom.</p><p>Boss sprites: <a href=\"https://megaman.retropixel.net/mmx/2/sprites.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ / RetroPixel</a>. Static frames preserve the original pixel art without continuous animation.</p><p>Route and movement cross-checks: <a href=\"https://www.mmhp.net/GameHints/MMX2.html\" target=\"_blank\" rel=\"noopener\">MMHP</a>, <a href=\"https://megaman.retropixel.net/mmx/2/bosses.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ</a>, and the stage-specific HonestGamers references. This guide is for the original Mega Man X2.</p>"
+  "sourcesHtml": "<p>Pickup screenshots by <a href=\"https://www.honestgamers.com/guides/mega-man-x2/31/\" target=\"_blank\" rel=\"noopener\">HonestGamers</a> contributors, shown with their source links. These screenshots were made by someone else; they are not original captures for this guide. Game artwork and sprites © Capcom.</p><p>Boss sprites: <a href=\"https://megaman.retropixel.net/mmx/2/sprites.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ / RetroPixel</a>. Static frames preserve the original pixel art without continuous animation.</p><p>Route and movement cross-checks: <a href=\"https://www.mmhp.net/GameHints/MMX2.html\" target=\"_blank\" rel=\"noopener\">MMHP</a>, <a href=\"https://megaman.retropixel.net/mmx/2/bosses.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ</a>, and the stage-specific HonestGamers references. This guide is for the original Mega Man X2.</p><p>X-Hunter entrance frames: <a href=\"https://www.youtube.com/watch?v=7DorArmLbIg\" target=\"_blank\" rel=\"noopener\">PrimeraEspada91 — All X Hunters Gate Locations</a>. These are frames from another creator’s gameplay, with the complete game scene preserved. Timestamped credits appear below.</p>"
 }

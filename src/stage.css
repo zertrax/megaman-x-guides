@@ -1,4 +1,6 @@
 /* Stage and return cards keep whole images and accept any pickup count. */
+.door-content .shot img{display:block;width:100%;height:auto;max-height:260px;object-fit:contain}
+.door-content .shot>span{position:absolute;right:.4rem;bottom:.4rem;display:grid;place-items:center;width:32px;height:32px;padding:0;font-size:1.45rem;border:1px solid #587487;border-radius:4px;background:#10151deb}
 .stage,.return-level{container-type:inline-size}
 main>.stage{padding-top:1rem}
 .stage-top{display:grid;grid-template-columns:minmax(260px,.85fr) minmax(0,1.65fr);gap:1.5rem;align-items:center;padding-bottom:.85rem;border-bottom:1px solid var(--line)}

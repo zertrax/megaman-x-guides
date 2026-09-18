@@ -26,6 +26,8 @@ The Games menu switches X4 Zero to X correctly. Each campaign has its own storag
 
 ## Content and limits
 
+X2 detour update: all eight entrance/approach images load from local assets. Verified the expanded cards at 940px and 390px with no horizontal overflow. Clicking a screenshot opens the existing viewer; Escape closes it and returns focus to the originating link. Build, inventory, page/asset links and diff checks pass across all five campaign pages. These frames show the relevant approach landmarks; source timestamps and creator credits are retained in the bottom credits.
+
 Game routes were cross-checked against the linked stage/item sources; see content-audit.md for decisions and resolved contradictions. All added images were visually inspected, including the replacement X4 isolated sprites. The site has not been validated by a complete console/emulator playthrough. Frame fit is specific to measured viewports and normal text size; longer future content and enlarged text can require scrolling.
 
 Reading state belongs to one browser profile and origin. Clearing browser data removes it; it does not sync between devices or migrate from a previous hostname.
