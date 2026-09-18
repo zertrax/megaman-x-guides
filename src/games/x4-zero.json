@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 2,
+  "id": "x4-zero",
+  "title": "Mega Man X4 · Zero",
+  "subtitle": "PlayStation / Saturn · Zero campaign",
+  "intro": "Zero’s own boss route, all 12 permanent pickups and the optional Black Zero start. No Dr. Light armor capsules appear in this campaign.",
+  "expectedCounts": {
+    "heart": 8,
+    "tank": 2,
+    "weaponTank": 1,
+    "ex": 1
+  },
+  "stages": [
+    {
+      "id": "web-spider",
+      "name": "Web Spider",
+      "area": "Jungle",
+      "weakness": "Shippuuga (no stun)",
+      "reward": "Raijingeki",
+      "tip": "On this first visit, jump-slash with the saber when he descends, then dash away from his tracking web. Shippuuga is a later damage option, not a reliable stun loop.",
+      "weapon": "Z-Saber",
+      "items": [
+        {
+          "id": "web-spider-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Ryuenjin",
+          "text": "In Area 2, burn the brown tree trunks along the main path with your fire attack. The heart is inside the second burnable trunk.",
+          "timing": "return",
+          "when": "Return trip",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-web-spider-heart-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Web_Spider_Life_Up_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/d/d0/MMX4_Web_Spider_Life_Up_location.png/revision/latest?cb=20220530231948",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Web Spider · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect available items; return for marked pickups",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php",
+      "sprite": {
+        "src": "assets/mmkb-x4-web-spider-boss-sprite.png",
+        "width": 68,
+        "height": 62,
+        "source": "https://megaman.fandom.com/wiki/File:Wspidersprite.png",
+        "original": "https://static.wikia.nocookie.net/megaman/images/5/5f/Wspidersprite.png/revision/latest?cb=20180606193109",
+        "credit": "Sprite image: Anonymous Waddle Dee / MMKB; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "split-mushroom",
+      "name": "Split Mushroom",
+      "area": "Bio Laboratory",
+      "weakness": "Raijingeki",
+      "reward": "Kuuenbu + Kuuenzan",
+      "tip": "Stand near the wall and use Raijingeki as he drops into reach. Reposition when he crosses the room; avoid running into the copies.",
+      "weapon": "Raijingeki",
+      "items": [
+        {
+          "id": "split-mushroom-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Falling ceiling; double jump for a retry",
+          "text": "In Area 2, after the spiral staircase, trigger the falling ceiling, then quickly jump onto it and climb to the heart ledge above. If it falls too far, return after the boss with your new double jump.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-split-mushroom-heart-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Split_Mushroom_Life_Up_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/6/6f/MMX4_Split_Mushroom_Life_Up_location.png/revision/latest?cb=20220531012923",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Split Mushroom · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php",
+      "sprite": {
+        "src": "assets/mmkb-x4-split-mushroom-boss-sprite.png",
+        "width": 46,
+        "height": 46,
+        "source": "https://megaman.fandom.com/wiki/File:Smushroomsprite.png",
+        "original": "https://static.wikia.nocookie.net/megaman/images/6/60/Smushroomsprite.png/revision/latest?cb=20181107102159",
+        "credit": "Sprite image: Mamudo / MMKB; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "magma-dragoon",
+      "name": "Magma Dragoon",
+      "area": "Volcano",
+      "weakness": "Raijingeki (no stun)",
+      "reward": "Ryuenjin",
+      "tip": "Take the Ride Armor through the lower lava tunnel into the arena and punch until it breaks. Then use saber combos or Raijingeki between his fire attacks.",
+      "weapon": "Raijingeki (no stun)",
+      "items": [
+        {
+          "id": "magma-dragoon-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Kuuenbu double jump",
+          "text": "Near the start of Area 2, climb the high ledge to the left of the first enemy Ride Armor. Double-jump left and catch the wall.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-magma-dragoon-heart-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Magma_Dragoon_Life_Up_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/c/c9/MMX4_Magma_Dragoon_Life_Up_location.png/revision/latest?cb=20220530232541",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Magma Dragoon · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php",
+      "sprite": {
+        "src": "assets/mmkb-x4-magma-dragoon-boss-sprite.png",
+        "width": 61,
+        "height": 80,
+        "source": "https://megaman.fandom.com/wiki/File:Mdragoon.png",
+        "original": "https://static.wikia.nocookie.net/megaman/images/a/a7/Mdragoon.png/revision/latest?cb=20180708235848",
+        "credit": "Sprite image: Anonymous Waddle Dee / MMKB; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "frost-walrus",
+      "name": "Frost Walrus",
+      "area": "Snow Base",
+      "weakness": "Ryuenjin",
+      "reward": "Hyouretsuzan",
+      "tip": "Use Ryuenjin beside him, then retreat before he slides. Repeat after he recovers; do not stay underneath falling ice.",
+      "weapon": "Ryuenjin",
+      "items": [
+        {
+          "id": "frost-walrus-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Ryuenjin",
+          "text": "Early in Area 1, take the lower path and melt the ice ceiling beneath the heart with your fire attack.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-frost-walrus-heart-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Frost_Walrus_Life_Up_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/f/fb/MMX4_Frost_Walrus_Life_Up_location.png/revision/latest?cb=20220531013844",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Frost Walrus · Heart Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "frost-walrus-ex-tank",
+          "type": "ex",
+          "name": "EX Tank",
+          "need": "Kuuenbu double jump",
+          "text": "In Area 1’s slippery slope section, look for the high upper-right ledge above the spikes. Double-jump from the nearby platform to reach it.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Raises the lives available after continuing; it does not refill health.",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-frost-walrus-ex-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_EX_Item_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/33/MMX4_EX_Item_location.png/revision/latest?cb=20220531013851",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Frost Walrus · EX Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "frost-walrus-weapon-tank",
+          "type": "weaponTank",
+          "name": "Weapon Tank",
+          "need": "Nothing",
+          "text": "In Area 2’s room full of ice blocks, break through the upper-right blocks to uncover the blue weapon tank.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Stores energy for Rakuhouha, Zero’s energy-consuming technique.",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-frost-walrus-weapon-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Weapon_Sub_Tank_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/2/2d/MMX4_Weapon_Sub_Tank_location.png/revision/latest?cb=20220531013858",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Frost Walrus · Weapon Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php",
+      "sprite": {
+        "src": "assets/mmkb-x4-frost-walrus-boss-sprite.png",
+        "width": 187,
+        "height": 114,
+        "source": "https://megaman.fandom.com/wiki/File:Fwalrus.png",
+        "original": "https://static.wikia.nocookie.net/megaman/images/f/f0/Fwalrus.png/revision/latest?cb=20180606193824",
+        "credit": "Sprite image: Anonymous Waddle Dee / MMKB; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "jet-stingray",
+      "name": "Jet Stingray",
+      "area": "Marine Base",
+      "weakness": "Hyouretsuzan",
+      "reward": "Hienkyaku",
+      "tip": "Double-jump above him and use Hyouretsuzan to strike downward. Avoid landing in the water; wait for him to return within safe reach.",
+      "weapon": "Hyouretsuzan",
+      "items": [
+        {
+          "id": "jet-stingray-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Ride Chaser",
+          "text": "In Area 1, do not jump at the third gap. Drop onto the lower platform holding the heart, then jump out before the next gap.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-jet-stingray-heart-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Jet_Stingray_Life_Up_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/05/MMX4_Jet_Stingray_Life_Up_location.png/revision/latest?cb=20220531014422",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Jet Stingray · Heart Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "jet-stingray-sub-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Ride Chaser dash attack",
+          "text": "Near the end of Area 2, jump onto the upper crate platform. Dash through the crates on the bike to collect the tank. Replay if you pass it.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-jet-stingray-sub-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Jet_Stingray_Sub_Tank_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/d/dd/MMX4_Jet_Stingray_Sub_Tank_location.png/revision/latest?cb=20220531014434",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Jet Stingray · Sub Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php",
+      "sprite": {
+        "src": "assets/mmkb-x4-jet-stingray-boss-sprite.png",
+        "width": 109,
+        "height": 63,
+        "source": "https://megaman.fandom.com/wiki/File:Jstingraysprite.png",
+        "original": "https://static.wikia.nocookie.net/megaman/images/6/6e/Jstingraysprite.png/revision/latest?cb=20181118082213",
+        "credit": "Sprite image: Mamudo / MMKB; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "cyber-peacock",
+      "name": "Cyber Peacock",
+      "area": "Cyber Space",
+      "weakness": "Ryuenjin",
+      "reward": "Rakuhouha",
+      "tip": "Dash until he reappears, then use Ryuenjin underneath him. Move away before his targeting cursors settle on you.",
+      "weapon": "Ryuenjin",
+      "items": [
+        {
+          "id": "cyber-peacock-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "S rank in timed room 2",
+          "text": "In Area 1, finish timed room 2 quickly enough for S rank. The reward teleporter leads to the heart. Use Kuuenzan to destroy yellow orbs. An A rank advances without the reward; replay if needed.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Zero-specific video opens here on demand.",
+          "media": [],
+          "video": {
+            "id": "GBO3_AVcOlI",
+            "start": 192,
+            "label": "Zero’s heart route"
+          }
+        },
+        {
+          "id": "cyber-peacock-sub-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "S rank in timed room 3",
+          "text": "Earn S rank in timed room 3 of Area 1. Enter the reward chamber and collect the tank before continuing. Zero’s first room rewards only an extra life.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Zero-specific video opens here on demand.",
+          "media": [],
+          "video": {
+            "id": "GBO3_AVcOlI",
+            "start": 236,
+            "label": "Zero’s tank route"
+          }
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php",
+      "sprite": {
+        "src": "assets/mmkb-x4-cyber-peacock-boss-sprite.png",
+        "width": 90,
+        "height": 98,
+        "source": "https://megaman.fandom.com/wiki/File:Cpeacocksprite.png",
+        "original": "https://static.wikia.nocookie.net/megaman/images/f/fc/Cpeacocksprite.png/revision/latest?cb=20181107102210",
+        "credit": "Sprite image: Mamudo / MMKB; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "storm-owl",
+      "name": "Storm Owl",
+      "area": "Air Force",
+      "weakness": "Rakuhouha",
+      "reward": "Tenkuuha",
+      "tip": "Use Rakuhouha when Owl is vulnerable and nearby. After its energy runs out, jump-slash between his attacks. Keep away from his grab.",
+      "weapon": "Rakuhouha",
+      "items": [
+        {
+          "id": "storm-owl-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Eagle Ride Armor; move quickly",
+          "text": "In Area 1, reach the platform beneath the giant laser cannon before it is destroyed. Dash over to grab the heart; use Eagle’s hover to escape. If the platform falls, retry the stage.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-storm-owl-heart-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Storm_Owl_Life_Up_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/7/71/MMX4_Storm_Owl_Life_Up_location.png/revision/latest?cb=20220530232126",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Storm Owl · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php",
+      "sprite": {
+        "src": "assets/mmkb-x4-storm-owl-boss-sprite.png",
+        "width": 73,
+        "height": 58,
+        "source": "https://megaman.fandom.com/wiki/File:X4_StormOwl.gif",
+        "original": "https://static.wikia.nocookie.net/megaman/images/0/00/X4_StormOwl.gif/revision/latest?cb=20220810213123",
+        "credit": "Sprite image: Unknowni123 / MMKB; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "slash-beast",
+      "name": "Slash Beast",
+      "area": "Military Train",
+      "weakness": "Raijingeki (no stun)",
+      "reward": "Shippuuga",
+      "tip": "Jump over his rushing slash and strike from behind. Raijingeki deals extra damage but does not stun him; short saber combos are safer when he is moving.",
+      "weapon": "Raijingeki (no stun)",
+      "items": [
+        {
+          "id": "slash-beast-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Raiden Ride Armor",
+          "text": "In Area 2, take the Ride Armor through the train cars. Smash the red cars and check the second one for the heart on its exposed platform.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/mmkb-x4-slash-beast-heart-tank.png",
+              "width": 320,
+              "height": 240,
+              "source": "https://megaman.fandom.com/wiki/File:MMX4_Slash_Beast_Life_Up_location.png",
+              "original": "https://static.wikia.nocookie.net/megaman/images/9/9d/MMX4_Slash_Beast_Life_Up_location.png/revision/latest?cb=20220531012711",
+              "credit": "Screenshot: Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Slash Beast · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php",
+      "sprite": {
+        "src": "assets/mmkb-x4-slash-beast-boss-sprite.png",
+        "width": 79,
+        "height": 88,
+        "source": "https://megaman.fandom.com/wiki/File:Sbeast.png",
+        "original": "https://static.wikia.nocookie.net/megaman/images/b/bd/Sbeast.png/revision/latest?cb=20181118082233",
+        "credit": "Sprite image: Mamudo / MMKB; game imagery © Capcom"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "name": "Standard · Zero campaign",
+      "subtitle": "Abilities before difficult fights",
+      "description": "Gain the double jump early, then fire before the ice stage and Cyber Peacock.",
+      "steps": [
+        {
+          "title": "Spider → Mushroom → Dragoon → Walrus",
+          "text": "Take the stage hearts and all three Walrus pickups.",
+          "href": "#boss-flow",
+          "critical": false
+        },
+        {
+          "title": "Stingray → Peacock → Owl → Beast",
+          "text": "Use the written Zero checkpoint numbers at Peacock.",
+          "href": "#jet-stingray",
+          "critical": false
+        },
+        {
+          "title": "Finish returns → Spaceport",
+          "text": "Return for Web Spider’s heart; retry any missed timing challenges.",
+          "href": "#cleanup",
+          "critical": false
+        }
+      ]
+    },
+    {
+      "name": "Completionist · every pickup + Black Zero option",
+      "subtitle": "Choose optional variants before New Game",
+      "description": "The normal Zero campaign has 12 permanent pickups. Black Zero changes the appearance.",
+      "steps": [
+        {
+          "title": "Decide whether to use a secret start",
+          "text": "Enter the code before choosing your character if you want the variant. A normal clear does not require it.",
+          "href": "#secret-start",
+          "critical": true
+        },
+        {
+          "title": "Collect every stage item",
+          "text": "All hearts, both Sub Tanks, Weapon Tank and EX Tank.",
+          "href": "#pickups",
+          "critical": false
+        },
+        {
+          "title": "Finish the campaign",
+          "text": "The other character’s campaign requires a separate new game.",
+          "href": "#fortress",
+          "critical": false
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "stage": "web-spider",
+      "title": "Heart Tank",
+      "items": [
+        "web-spider-heart-tank"
+      ]
+    }
+  ],
+  "extraSections": [
+    "<section id=\"secret-start\"><h2>Black Zero start</h2><p>Black Zero is a cosmetic alternate palette in original console X4. It does not require parts or a special ending.</p><p class=\"inline-critical\"><strong>Enter at character select, before starting.</strong> These are the original North American PlayStation inputs. Port, region and controller mappings can differ; the original Windows port uses different codes.</p><ol class=\"instructions\"><li>Highlight Zero. Hold R1 and press Right six times.</li><li>Release R1. Hold Circle, then press Start to choose Zero. Keep Circle held until gameplay begins. Confirm the black palette before continuing.</li></ol><p>Original Saturn: hold R, press Right six times, release R, then hold B and press Start. Original 1997 Windows release: hold Up while selecting Zero. These Windows instructions are not the Steam Legacy Collection keyboard mapping.</p><p>Legacy Collection with an Xbox-layout controller, English game: Hold RB and press Right six times; release RB, then hold B while confirming Zero. Keep the held buttons down into gameplay and verify the changed color. For the Japanese Rockman version the face-button input differs; use its version-specific reference. The regular pickup route works without a code.</p><a class=\"shot bonus-shot\" href=\"assets/x4-new-game-secret-black-zero.png\" data-lightbox data-title=\"Black Zero\" aria-label=\"Enlarge Black Zero location\"><img src=\"assets/x4-new-game-secret-black-zero.png\" width=\"114\" height=\"139\" alt=\"New Game Secret · Black Zero — location detail\" loading=\"lazy\"><span aria-hidden=\"true\">⤢</span></a></section>",
+    "<section id=\"fortress\"><h2>Colonel & Final Weapon</h2><p>The midpoint Colonel encounter is a scene for Zero; the Spaceport battle after eight bosses is still required. Finish returns and refill tanks before the final stages.</p><ol class=\"instructions\"><li>Colonel: jump the saber waves and attack after his teleport. Use short saber combos and back away.</li><li>Iris: damage the armor until the floating crystal emerges, then attack that crystal. Avoid the horizontal laser lanes; striking only the armor does not finish the battle.</li><li>General: climb by riding his fists, then hit the head from the side. Use jumping saber attacks. Avoid dropping between the moving hands.</li><li>Final Weapon rematches: reuse the eight stage weaknesses. Sigma’s cloaked first form requires Ryuenjin; strike him from below when he appears low enough.</li><li>Reaper Sigma: dodge the thrown scythe and attack his exposed head. Use jumping saber attacks; save a tank for the last battle. In the final multi-body fight, damage the exposed heads when they open, using the saber; avoid wasting attacks on closed armor.</li></ol></section>"
+  ],
+  "videos": [
+    {
+      "id": "GBO3_AVcOlI",
+      "start": 192,
+      "title": "Zero · Cyber Peacock pickups",
+      "text": "The heart is in timed room 2; the Sub Tank is in room 3. Tank demonstration begins at 3:56.",
+      "author": "X MaverickHunter"
+    }
+  ],
+  "routeIntro": "Both routes use the boss order below. Choose how far you want to take the run.",
+  "flowIntro": "The numbered route uses weapons already available. A return arrow marks a pickup saved for cleanup.",
+  "basicsHtml": "<summary>Controls, tanks &amp; returning to stages</summary><p>Directions use actions rather than controller buttons: Jump, Dash, Fire and Special. Check your control mapping. Heart Tanks increase maximum health; Sub Tanks store excess health collected while your life bar is full. Exit from the pause menu works in cleared stages.</p><h3>Zero’s technique inputs</h3><ul><li>Raijingeki: Special while standing.</li><li>Ryuenjin: Up + Special on the ground.</li><li>Hyouretsuzan: Down + Special in the air.</li><li>Kuuenbu: Jump again in midair. Kuuenzan: Attack in the air.</li><li>Hienkyaku: Dash after a normal jump.</li><li>Rakuhouha: Giga Attack; this consumes weapon energy.</li><li>Shippuuga: Special while dashing. Tenkuuha is passive.</li></ul>",
+  "sourcesHtml": "<p>Independent fan guide. Game imagery © Capcom. Locations and routes were checked against the references below; instructions are written for this guide. Screenshots and sprite captures belong to their credited contributors.</p><p>X4 pickup screenshots: <a href=\"https://megaman.fandom.com/wiki/Mega_Man_X4\">MMKB</a>, uploaded by Unknowni123, shown at their original 320 × 240 resolution. Game imagery © Capcom. Boss sprites: MMKB contributors, listed below. Secret-start illustrations: RetroPixel.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/4/items.php\" target=\"_blank\" rel=\"noopener\">Pickup locations and armor ↗</a></li><li><a href=\"https://strategywiki.org/wiki/Mega_Man_X4/Items\" target=\"_blank\" rel=\"noopener\">Item and checkpoint reference ↗</a></li><li><a href=\"https://gamefaqs.gamespot.com/pc/574894-mega-man-x4/faqs/2500\" target=\"_blank\" rel=\"noopener\">Original walkthrough and campaign differences ↗</a></li><li><a href=\"https://megaman.retropixel.net/mmx/4/zbosses.php\" target=\"_blank\" rel=\"noopener\">Zero boss tactics ↗</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps4/239314-mega-man-x-legacy-collection/cheats\" target=\"_blank\" rel=\"noopener\">Legacy Collection code reference ↗</a></li></ul><p><a href=\"https://gamefaqs.gamespot.com/ps/197898-mega-man-x4/cheats\">Original PlayStation secret-start codes ↗</a></p><p>Cyber Peacock’s Zero cards use the character-specific video instead of X’s different reward-room pictures.</p><p>Sprite and screenshot captures are credited below; game imagery © Capcom. These are not original captures for this guide.</p><p><a href=\"https://megaman.retropixel.net/mmx/4/zweapons.php\">Zero’s technique inputs ↗</a></p>",
+  "displayId": "X4",
+  "character": "Zero",
+  "flowSubtitle": "Abilities in a useful order",
+  "warning": {
+    "id": "campaign-choice",
+    "label": "Choose before starting",
+    "title": "Black Zero is a new-game option, not a set of armor parts.",
+    "text": "X4 locks you to X or Zero for the save. Black Zero is a cosmetic variant in the original console game; there is no armor-part hunt or X2-style rescue route. Read the platform-specific instructions before starting if you want it.",
+    "link": "#secret-start",
+    "linkText": "Check the optional start codes"
+  },
+  "returnIntro": "After the eight bosses, collect these planned returns. Also replay any stage where you missed a timed pickup; none of the ordinary stage items is permanently lost. Open a level to see its remaining cards together.",
+  "completionText": "8 hearts · 2 Sub Tanks · 1 Weapon Tank · 1 EX Tank. Zero has no armor capsules. Refill health and Rakuhouha.",
+  "extraMedia": [
+    {
+      "src": "assets/x4-new-game-secret-black-zero.png",
+      "width": 114,
+      "height": 139,
+      "name": "Black Zero",
+      "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+      "source": "https://megaman.retropixel.net/mmx/4/items.php"
+    }
+  ]
+}

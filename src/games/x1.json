@@ -1,0 +1,627 @@
+{
+  "schemaVersion": 2,
+  "id": "x1",
+  "title": "Mega Man X",
+  "subtitle": "SNES · Original Mega Man X",
+  "intro": "Start with the dash, follow the weakness chain, then finish the three return stops. Includes all 16 upgrades and the optional Hadouken.",
+  "expectedCounts": {
+    "heart": 8,
+    "tank": 4,
+    "armor": 4
+  },
+  "stages": [
+    {
+      "id": "chill-penguin",
+      "name": "Chill Penguin",
+      "area": "Snow Mountain",
+      "weakness": "Fire Wave",
+      "reward": "Shotgun Ice",
+      "tip": "Charge while he moves. Wall-jump above his slide, then fire when he stops. Shoot the ice statues before they fill the floor.",
+      "weapon": "X-Buster",
+      "items": [
+        {
+          "id": "chill-penguin-leg-parts",
+          "type": "armor",
+          "name": "Leg Parts",
+          "need": "Nothing",
+          "text": "Walk into the capsule on the main path, before the Ride Armor section. The dash is required for the route ahead.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Unlocks ground dashing and breaking certain blocks with wall kicks.",
+          "media": [
+            {
+              "src": "assets/x1-chill-penguin-leg-parts.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/98.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/penguin005.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Chill Penguin · Leg Parts — full scene"
+            }
+          ]
+        },
+        {
+          "id": "chill-penguin-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Fire Wave",
+          "text": "In the Ride Armor area, jump out onto the roof above. Burn the left igloo with Fire Wave to uncover the heart.",
+          "timing": "return",
+          "when": "Return trip",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-chill-penguin-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/98.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/penguin011.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Chill Penguin · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect available items; return for marked pickups",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/98.html",
+      "sprite": {
+        "src": "assets/x1-chill-penguin-boss-sprite.png",
+        "width": 50,
+        "height": 46,
+        "source": "https://megaman.retropixel.net/mmx/1/sprites.php",
+        "original": "https://megaman.retropixel.net/mmx/1/animated_sprite_chill_penguin.gif",
+        "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+        "alt": "Chill Penguin · Boss Sprite — location detail"
+      }
+    },
+    {
+      "id": "spark-mandrill",
+      "name": "Spark Mandrill",
+      "area": "Power Plant",
+      "weakness": "Shotgun Ice",
+      "reward": "Electric Spark",
+      "tip": "Freeze him with Shotgun Ice. Wait for him to thaw before firing again; timed hits can stop each new attack.",
+      "weapon": "Shotgun Ice",
+      "items": [
+        {
+          "id": "spark-mandrill-sub-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Boomerang Cutter",
+          "text": "Take the lower passage near the start. The tank is behind a wall you cannot enter; throw Boomerang Cutter so its return arc carries the tank to you.",
+          "timing": "return",
+          "when": "Return trip",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-spark-mandrill-sub-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/99.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/mandrill002.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Spark Mandrill · Sub Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "spark-mandrill-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Boomerang Cutter; or a precise dash wall-jump",
+          "text": "After the first tortoise, look up at the ledge before the downward ladder. Catch the heart with Boomerang Cutter on your return. A dash wall-jump can reach it earlier.",
+          "timing": "return",
+          "when": "Return trip",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-spark-mandrill-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/99.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/mandrill008.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Spark Mandrill · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect available items; return for marked pickups",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/99.html",
+      "sprite": {
+        "src": "assets/x1-spark-mandrill-boss-sprite.png",
+        "width": 67,
+        "height": 78,
+        "source": "https://megaman.retropixel.net/mmx/1/sprites.php",
+        "original": "https://megaman.retropixel.net/mmx/1/animated_sprite_spark_mandrill.gif",
+        "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+        "alt": "Spark Mandrill · Boss Sprite — location detail"
+      }
+    },
+    {
+      "id": "armored-armadillo",
+      "name": "Armored Armadillo",
+      "area": "Mine",
+      "weakness": "Electric Spark",
+      "reward": "Rolling Shield",
+      "tip": "Hit him with Electric Spark to strip his armor. Keep firing between his rolling attacks; stay clear when he rebounds from the walls.",
+      "weapon": "Electric Spark",
+      "items": [
+        {
+          "id": "armored-armadillo-sub-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Nothing",
+          "text": "Let the first tunneling machine drive right, then drop behind it and enter the recess it was guarding on the left.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-armored-armadillo-sub-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/141.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/armadillo005.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Armored Armadillo · Sub Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "armored-armadillo-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Rapid Buster fire; Fire Wave makes a retry easier",
+          "text": "Drop behind the second tunneling machine and destroy it before it removes the wall under the heart ledge. Fire rapidly into its back, then climb the preserved wall. If you miss, return with Fire Wave for a quicker kill.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-armored-armadillo-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/141.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/armadillo007.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Armored Armadillo · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/141.html",
+      "sprite": {
+        "src": "assets/x1-armored-armadillo-boss-sprite.png",
+        "width": 63,
+        "height": 55,
+        "source": "https://megaman.retropixel.net/mmx/1/sprites.php",
+        "original": "https://megaman.retropixel.net/mmx/1/animated_sprite_armored_armadillo.gif",
+        "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+        "alt": "Armored Armadillo · Boss Sprite — location detail"
+      }
+    },
+    {
+      "id": "launch-octopus",
+      "name": "Launch Octopus",
+      "area": "Ocean",
+      "weakness": "Rolling Shield",
+      "reward": "Homing Torpedo",
+      "tip": "Use Rolling Shield while dodging his missiles. Keep away from the suction whirlpool; wall-jump out of danger before firing again.",
+      "weapon": "Rolling Shield",
+      "items": [
+        {
+          "id": "launch-octopus-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Nothing",
+          "text": "Ride the water jet directly beneath the large ship to the surface. Destroy the ship so it sinks through the floor. Follow it down, defeat the serpent by hitting its head or tail, then continue right to the heart.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-launch-octopus-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/142.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/octopus010.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Launch Octopus · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/142.html",
+      "sprite": {
+        "src": "assets/x1-launch-octopus-boss-sprite.png",
+        "width": 126,
+        "height": 71,
+        "source": "https://megaman.retropixel.net/mmx/1/sprites.php",
+        "original": "https://megaman.retropixel.net/mmx/1/animated_sprite_launch_octopus.gif",
+        "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+        "alt": "Launch Octopus · Boss Sprite — location detail"
+      }
+    },
+    {
+      "id": "boomer-kuwanger",
+      "name": "Boomer Kuwanger",
+      "area": "Tower",
+      "weakness": "Homing Torpedo",
+      "reward": "Boomerang Cutter",
+      "tip": "Fire Homing Torpedo, then climb away from his dash and grab. Keep moving after he teleports; the missiles track him for you.",
+      "weapon": "Homing Torpedo",
+      "items": [
+        {
+          "id": "boomer-kuwanger-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Boomerang Cutter",
+          "text": "At the high outdoor balcony, the heart sits on the ledge above and to the right. Return after defeating Kuwanger and use Boomerang Cutter to pull it down.",
+          "timing": "return",
+          "when": "Return trip",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-boomer-kuwanger-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/143.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/kuwanger006.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Boomer Kuwanger · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect available items; return for marked pickups",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/143.html",
+      "sprite": {
+        "src": "assets/x1-boomer-kuwanger-boss-sprite.png",
+        "width": 65,
+        "height": 58,
+        "source": "https://megaman.retropixel.net/mmx/1/sprites.php",
+        "original": "https://megaman.retropixel.net/mmx/1/animated_sprite_boomer_kuwanger.gif",
+        "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+        "alt": "Boomer Kuwanger · Boss Sprite — location detail"
+      }
+    },
+    {
+      "id": "sting-chameleon",
+      "name": "Sting Chameleon",
+      "area": "Forest",
+      "weakness": "Boomerang Cutter",
+      "reward": "Chameleon Sting",
+      "tip": "Boomerang Cutter knocks him out of hiding. Track where he reappears and keep away from the ceiling spikes and his tongue.",
+      "weapon": "Boomerang Cutter",
+      "items": [
+        {
+          "id": "sting-chameleon-body-parts",
+          "type": "armor",
+          "name": "Body Parts",
+          "need": "Dash",
+          "text": "Before entering the cave, dash-jump onto the cliff above its entrance. Defeat the large green robot by shooting its head; the capsule appears after it falls.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Halves incoming damage.",
+          "media": [
+            {
+              "src": "assets/x1-sting-chameleon-body-parts.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/144.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/chameleon005.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Sting Chameleon · Body Parts — full scene"
+            }
+          ]
+        },
+        {
+          "id": "sting-chameleon-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Leg Parts + Launch Octopus defeated",
+          "text": "At the cave entrance, slide down the left side of the pit and break the blocks with wall kicks. The water added after Launch Octopus lets you dash-jump across to the heart.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-sting-chameleon-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/144.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/chameleon004.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Sting Chameleon · Heart Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/144.html",
+      "sprite": {
+        "src": "assets/x1-sting-chameleon-boss-sprite.png",
+        "width": 118,
+        "height": 51,
+        "source": "https://megaman.retropixel.net/mmx/1/sprites.php",
+        "original": "https://megaman.retropixel.net/mmx/1/animated_sprite_sting_chameleon.gif",
+        "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+        "alt": "Sting Chameleon · Boss Sprite — location detail"
+      }
+    },
+    {
+      "id": "storm-eagle",
+      "name": "Storm Eagle",
+      "area": "Airport",
+      "weakness": "Chameleon Sting",
+      "reward": "Storm Tornado",
+      "tip": "Dash into the wind and shoot Chameleon Sting when he lands. Watch the edge of the screen for his diving approach, then jump over it.",
+      "weapon": "Chameleon Sting",
+      "items": [
+        {
+          "id": "storm-eagle-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Dash",
+          "text": "Ride the first moving platforms to their highest point. Dash-jump left onto the roof above the starting area.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-storm-eagle-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/145.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/eagle003.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Storm Eagle · Heart Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "storm-eagle-sub-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Nothing",
+          "text": "Use the moving gun platforms to reach the glass control booth above. Shoot the glass and enter the booth.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-storm-eagle-sub-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/145.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/eagle005.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Storm Eagle · Sub Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "storm-eagle-head-parts",
+          "type": "armor",
+          "name": "Head Parts",
+          "need": "Dash",
+          "text": "After climbing the tall metal tower, drop down its far side. Dash-jump right to the fuel canisters, destroy them and follow the opening to the capsule.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Breaks marked ceiling blocks; needed for Flame Mammoth’s arm capsule.",
+          "media": [
+            {
+              "src": "assets/x1-storm-eagle-head-parts.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/145.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/eagle008.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Storm Eagle · Head Parts — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/145.html",
+      "sprite": {
+        "src": "assets/x1-storm-eagle-boss-sprite.png",
+        "width": 79,
+        "height": 89,
+        "source": "https://megaman.retropixel.net/mmx/1/sprites.php",
+        "original": "https://megaman.retropixel.net/mmx/1/animated_sprite_storm_eagle.gif",
+        "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+        "alt": "Storm Eagle · Boss Sprite — location detail"
+      }
+    },
+    {
+      "id": "flame-mammoth",
+      "name": "Flame Mammoth",
+      "area": "Factory",
+      "weakness": "Storm Tornado",
+      "reward": "Fire Wave",
+      "tip": "Storm Tornado interrupts his attacks. Jump when he lands to avoid the floor shake, and stay clear of burning oil.",
+      "weapon": "Storm Tornado",
+      "items": [
+        {
+          "id": "flame-mammoth-arm-parts",
+          "type": "armor",
+          "name": "Arm Parts",
+          "need": "Head Parts + Leg Parts",
+          "text": "At the start of the large pickaxe-robot room, jump from the raised platform toward the upper-left ceiling blocks. Break the first block with your helmet, then keep wall-jumping up through the shaft.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Enables charged special weapons and the stronger Buster charge.",
+          "media": [
+            {
+              "src": "assets/x1-flame-mammoth-arm-parts.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/146.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/mammoth003.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Flame Mammoth · Arm Parts — full scene"
+            }
+          ]
+        },
+        {
+          "id": "flame-mammoth-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Chill Penguin defeated",
+          "text": "Penguin’s defeat freezes the lava. Walk along the bottom of the pickaxe-robot room to the far right, beneath the platforms.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-flame-mammoth-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/146.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/mammoth007.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Flame Mammoth · Heart Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "flame-mammoth-sub-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Leg Parts",
+          "text": "Climb to the top-left platform in the pickaxe room, near the extra life. Dash-jump left and wall-kick through the breakable blocks to reach the tank.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x1-flame-mammoth-sub-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/146.html",
+              "original": "https://www.honestgamers.com/guides/10/2453/8/mammoth010.jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Flame Mammoth · Sub Tank — full scene"
+            }
+          ]
+        }
+      ],
+      "now": "Collect the stage pickups",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/146.html",
+      "sprite": {
+        "src": "assets/x1-flame-mammoth-boss-sprite.png",
+        "width": 84,
+        "height": 88,
+        "source": "https://megaman.retropixel.net/mmx/1/sprites.php",
+        "original": "https://megaman.retropixel.net/mmx/1/animated_sprite_flame_mammoth.gif",
+        "credit": "Mega Man XZ: The Maverick Hunters / RetroPixel; game imagery © Capcom",
+        "alt": "Flame Mammoth · Boss Sprite — location detail"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "name": "Standard · all upgrades",
+      "subtitle": "Straight weakness chain",
+      "description": "All hearts, tanks and armor, with three cleanup stages.",
+      "steps": [
+        {
+          "title": "Penguin → Mandrill → Armadillo",
+          "text": "Take the dash immediately; use each reward on the next boss.",
+          "href": "#boss-flow",
+          "critical": false
+        },
+        {
+          "title": "Octopus → Kuwanger → Chameleon",
+          "text": "Octopus floods Chameleon’s heart route before you arrive.",
+          "href": "#launch-octopus",
+          "critical": false
+        },
+        {
+          "title": "Eagle → Mammoth",
+          "text": "Get Eagle’s helmet before attempting Mammoth’s arm capsule.",
+          "href": "#storm-eagle",
+          "critical": false
+        },
+        {
+          "title": "Three return stops → Sigma",
+          "text": "Collect the missed items and refill four Sub Tanks.",
+          "href": "#cleanup",
+          "critical": false
+        }
+      ]
+    },
+    {
+      "name": "Completionist · add Hadouken",
+      "subtitle": "All upgrades + secret move",
+      "description": "Follow the standard route, then visit the mine again before Sigma.",
+      "steps": [
+        {
+          "title": "Finish all eight bosses and 16 upgrades",
+          "text": "The secret capsule requires your regular collection to be complete.",
+          "href": "#cleanup",
+          "critical": false
+        },
+        {
+          "title": "Prepare lives and full health",
+          "text": "Follow the repeated cliff-visit procedure. Passwords do not retain Hadouken.",
+          "href": "#hadouken",
+          "critical": false
+        },
+        {
+          "title": "Enter Sigma’s fortress",
+          "text": "Zero’s story here is scripted; there is no X2-style rescue-parts route.",
+          "href": "#fortress",
+          "critical": false
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "stage": "chill-penguin",
+      "title": "Heart Tank",
+      "items": [
+        "chill-penguin-heart-tank"
+      ]
+    },
+    {
+      "stage": "spark-mandrill",
+      "title": "Sub Tank + Heart Tank",
+      "items": [
+        "spark-mandrill-sub-tank",
+        "spark-mandrill-heart-tank"
+      ]
+    },
+    {
+      "stage": "boomer-kuwanger",
+      "title": "Heart Tank",
+      "items": [
+        "boomer-kuwanger-heart-tank"
+      ]
+    }
+  ],
+  "extraSections": [
+    "<section id=\"hadouken\"><h2>Hadouken</h2><p>Optional, after all eight bosses, eight hearts, four Sub Tanks and four armor parts.</p><ol class=\"instructions\"><li>For a reliable attempt, refill health, weapons and Sub Tanks, and stock at least five lives. The respawning bat near the mine entrance can supply extra lives.</li><li>Replay Armored Armadillo. From the last minecart jump onto the high ledge above the boss entrance, beside the large health pickup. Visit that ledge, then fall into the pit; repeat four times without a game over.</li><li>On the fifth visit, arrive with full health. Enter the capsule that appears on the ledge.</li><li>At full health, stand on the ground and input Down → Down-forward → Forward + Fire. Reverse the directions when facing left. Passwords do not save this move.</li></ol><a class=\"shot bonus-shot\" href=\"assets/x1-armored-armadillo-hadouken.jpg\" data-lightbox data-title=\"Hadouken\" aria-label=\"Enlarge Hadouken location\"><img src=\"assets/x1-armored-armadillo-hadouken.jpg\" width=\"640\" height=\"480\" alt=\"Armored Armadillo · Hadouken — full scene\" loading=\"lazy\"><span aria-hidden=\"true\">⤢</span></a></section>",
+    "<section id=\"fortress\"><h2>Sigma fortress & Zero</h2><p>Collect and refill before entering. The Maverick rematches are spread through the fortress; reuse the weaknesses above.</p><ol class=\"instructions\"><li>Sigma 1: Vile’s first encounter is scripted. After Zero intervenes, defeat Vile with Rolling Shield; if you skipped the arm capsule, Zero supplies the Buster upgrade. His sacrifice cannot be prevented through a collectible route in this game. Bospider: follow the connecting rails to predict its lane, then hit the briefly open red eye with Shotgun Ice.</li><li>Sigma 2: use Chameleon Sting against Rangda Bangda’s eyes and nose. Climb clear when the walls close.</li><li>Sigma 3: hit D-Rex’s upper half with Boomerang Cutter while avoiding the lower crusher.</li><li>Final stage: Shotgun Ice on Velguarder; Electric Spark on Sigma. For the final wolf machine, ride the hands upward and fire Rolling Shield at the head. Charged Buster shots also work.</li></ol></section>"
+  ],
+  "videos": [],
+  "routeIntro": "Both routes use the boss order below. Choose how far you want to take the run.",
+  "flowIntro": "The numbered route uses weapons already available. A return arrow marks a pickup saved for cleanup.",
+  "basicsHtml": "<summary>Controls, tanks &amp; returning to stages</summary><p>Directions use actions rather than controller buttons: Jump, Dash, Fire and Special. Check your control mapping. Heart Tanks increase maximum health; Sub Tanks store excess health collected while your life bar is full. Exit from the pause menu works in cleared stages.</p>",
+  "sourcesHtml": "<p>Independent fan guide. Game imagery © Capcom. Locations and routes were checked against the references below; instructions are written for this guide. Screenshots and sprite captures belong to their credited contributors.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/1/items.php\" target=\"_blank\" rel=\"noopener\">Original-game items and armor ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x/8/read/147.html\" target=\"_blank\" rel=\"noopener\">Hadouken procedure ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x/8/contents/0.html\" target=\"_blank\" rel=\"noopener\">Fortress walkthrough ↗</a></li></ul><p>Boss sprite source: <a href=\"https://megaman.retropixel.net/mmx/1/sprites.php\">Mega Man XZ / RetroPixel ↗</a>. Screenshot credits below identify the original contributors; these are not original captures for this guide.</p>",
+  "extraMedia": [
+    {
+      "src": "assets/x1-armored-armadillo-hadouken.jpg",
+      "width": 640,
+      "height": 480,
+      "name": "Hadouken",
+      "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+      "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/147.html"
+    }
+  ]
+}

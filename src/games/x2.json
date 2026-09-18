@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "id": "x2",
+  "title": "Mega Man X2",
+  "subtitle": "SNES · Original game",
+  "intro": "A clear route through every boss, armor capsule, Heart Tank and Sub Tank. Pick your path, then keep the guide beside your game.",
+  "expectedCounts": {
+    "heart": 8,
+    "tank": 4,
+    "armor": 4
+  },
+  "stages": [
+    {
+      "id": "sponge",
+      "name": "Wire Sponge",
+      "area": "Weather Control",
+      "weapon": "X-Buster",
+      "reward": "Strike Chain",
+      "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/682.html",
+      "now": "Heart + Sub Tank",
+      "tip": "Fire charged shots after his spinning vine stops. Jump the thrown chain. When he turns red, dodge the lightning and wait for him to become vulnerable.",
+      "items": [
+        {
+          "id": "sponge-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Nothing",
+          "when": "First visit",
+          "text": "From the spawn point, turn left. Wall-jump up the left edge and press into the hidden recess near the ceiling.",
+          "media": [
+            {
+              "src": "assets/sponge-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/682.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/sponge(2).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        },
+        {
+          "id": "sponge-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Nothing",
+          "when": "First visit",
+          "text": "At the first floating pillar over spikes, jump back left to the tree wall. Climb it, jump right onto the upper platforms, then continue right across the gap to the tank.",
+          "media": [
+            {
+              "src": "assets/sponge-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/682.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/sponge(5).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        }
+      ],
+      "weakness": "Sonic Slicer",
+      "sprite": {
+        "src": "assets/sponge-boss-still.png",
+        "width": 74,
+        "height": 72,
+        "source": "https://megaman.retropixel.net/mmx/2/sprites.php"
+      }
+    },
+    {
+      "id": "gator",
+      "name": "Wheel Gator",
+      "area": "Dinosaur Tank",
+      "weapon": "Strike Chain",
+      "reward": "Spin Wheel",
+      "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/684.html",
+      "now": "Return for both pickups",
+      "tip": "Stay high on the wall while he is submerged. Avoid the saw blades, then hit him with Strike Chain when he surfaces. Hold Fire to extend the chain.",
+      "items": [
+        {
+          "id": "gator-arms",
+          "type": "armor",
+          "name": "Arm Parts",
+          "need": "Leg Parts for this method",
+          "when": "Return after stage 8 — collect these first",
+          "text": "Early inside the tank, after the first ladders, stop at the ceiling opening before descending again. Climb the right wall. Jump left, then air-dash to the hanging wall and climb into the capsule room.",
+          "extra": "Enables charged special weapons and a double charged Buster shot.",
+          "media": [
+            {
+              "src": "assets/gator-arms.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/684.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/gator(4).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "return"
+        },
+        {
+          "id": "gator-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Arm Parts + Speed Burner",
+          "when": "Same return trip, after the Arm Parts",
+          "text": "After the Ride Armor section, climb the ladder. The heart is above the spiked wall on your left. Stand on the raised ledge to the right; charge Speed Burner, dash-jump left, then release Fire in midair. Grab above the spikes and climb immediately.",
+          "media": [
+            {
+              "src": "assets/gator-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/684.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/gator(9).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "return"
+        }
+      ],
+      "weakness": "Strike Chain",
+      "sprite": {
+        "src": "assets/gator-boss-still.png",
+        "width": 100,
+        "height": 50,
+        "source": "https://megaman.retropixel.net/mmx/2/sprites.php"
+      }
+    },
+    {
+      "id": "crab",
+      "name": "Bubble Crab",
+      "area": "Deep-Sea Base",
+      "weapon": "Spin Wheel",
+      "reward": "Bubble Splash",
+      "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/685.html",
+      "now": "Heart; return for Sub Tank",
+      "tip": "Drop a Spin Wheel beside him or onto his head. It breaks his bubble shield. Keep clear of his upward claw attack.",
+      "items": [
+        {
+          "id": "crab-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Dash wall-jump; charged Bubble Splash makes it easier",
+          "when": "First visit, or collect with the Sub Tank later",
+          "text": "Where the giant fish opens the floor gate, climb the tall right wall. Dash wall-jump left toward the floating vertical platforms. Climb one, ride it upward, then jump onto the high ledge with the heart.",
+          "media": [
+            {
+              "src": "assets/crab-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/685.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/crab(5).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        },
+        {
+          "id": "crab-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Arm Parts + Bubble Splash",
+          "when": "Return after collecting the Arm Parts",
+          "text": "In the broad underwater area, stand on the flat rocky shelf below the tank. Activate charged Bubble Splash, jump to the surface, then press Jump again as X breaks the surface. Move left onto the tank’s ledge.",
+          "media": [
+            {
+              "src": "assets/crab-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/685.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/crab(7).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "return"
+        }
+      ],
+      "weakness": "Spin Wheel",
+      "sprite": {
+        "src": "assets/crab-boss-still.png",
+        "width": 66,
+        "height": 72,
+        "source": "https://megaman.retropixel.net/mmx/2/sprites.php"
+      }
+    },
+    {
+      "id": "stag",
+      "name": "Flame Stag",
+      "area": "Volcanic Zone",
+      "weapon": "Bubble Splash",
+      "reward": "Speed Burner",
+      "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/686.html",
+      "now": "Sub Tank + Heart",
+      "tip": "Hit with Bubble Splash, jump his low fireball, and stay below the high one. Repeat once his damage invulnerability ends.",
+      "items": [
+        {
+          "id": "stag-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Nothing",
+          "when": "First visit — before entering the volcano",
+          "text": "Jump onto the first flying beetle’s back. Let it carry you to the top, then jump left onto the high ledge. Get the tank before letting the beetle smash a wall.",
+          "media": [
+            {
+              "src": "assets/stag-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/686.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/stag(3).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        },
+        {
+          "id": "stag-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Spin Wheel recommended",
+          "when": "First visit — during the rising lava",
+          "text": "Climb quickly as the lava rises. Look for the heart behind a barrier on the left. Destroy the barrier with Spin Wheel, dash in, take the heart, and immediately climb back out. You keep the pickup if the lava catches you.",
+          "media": [
+            {
+              "src": "assets/stag-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/686.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/stag(4).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        }
+      ],
+      "weakness": "Bubble Splash",
+      "sprite": {
+        "src": "assets/stag-boss-still.png",
+        "width": 68,
+        "height": 70,
+        "source": "https://megaman.retropixel.net/mmx/2/sprites.php"
+      }
+    },
+    {
+      "id": "moth",
+      "name": "Morph Moth",
+      "area": "Robot Junkyard",
+      "weapon": "Speed Burner",
+      "reward": "Silk Shot",
+      "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/687.html",
+      "now": "Body Parts; return for Heart",
+      "tip": "Use Speed Burner on both the hanging cocoon and the flying moth. Move away from falling debris; fire when he is within reach.",
+      "items": [
+        {
+          "id": "moth-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Crystal Hunter",
+          "when": "Return after Crystal Snail",
+          "text": "Before the building entrance, knock aside the shield robot’s shield, then freeze the robot with Crystal Hunter. Stand on the crystal, dash-jump right to the building’s upper wall, and climb to the heart.",
+          "media": [
+            {
+              "src": "assets/moth-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/687.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/moth(3).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "return"
+        },
+        {
+          "id": "moth-body",
+          "type": "armor",
+          "name": "Body Parts",
+          "need": "Spin Wheel",
+          "when": "First visit",
+          "text": "Inside the first magnetic-ceiling room, stop at the small step up toward the next room. Fire Spin Wheel into the floor just left of that step. Keep cutting downward, then follow the shaft to the capsule.",
+          "extra": "Reduces damage and adds Giga Crush, which charges when enemy projectiles hit you.",
+          "media": [
+            {
+              "src": "assets/moth-body.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/687.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/moth(4).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        }
+      ],
+      "weakness": "Speed Burner",
+      "sprite": {
+        "src": "assets/moth-boss-still.png",
+        "width": 70,
+        "height": 85,
+        "source": "https://megaman.retropixel.net/mmx/2/sprites.php"
+      }
+    },
+    {
+      "id": "centipede",
+      "name": "Magna Centipede",
+      "area": "Central Computer",
+      "weapon": "Silk Shot",
+      "reward": "Magnet Mine",
+      "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/688.html",
+      "now": "Return for Heart + Sub Tank",
+      "tip": "Hit him with Silk Shot to remove his tail. Keep moving when he teleports, and avoid being grabbed.",
+      "items": [
+        {
+          "id": "centipede-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Arm Parts + Speed Burner for this method",
+          "when": "Return after collecting the Arm Parts",
+          "text": "Avoid the early searchlights so the ceiling turret stays in place beneath the upward passage. From the raised ground to its right, jump left and release charged Speed Burner. Catch the turret’s right side, then climb the shaft.",
+          "media": [
+            {
+              "src": "assets/centipede-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/688.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/centipede(4).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "return"
+        },
+        {
+          "id": "centipede-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Leg Parts + Arm Parts + Speed Burner for this method",
+          "when": "Same return trip",
+          "text": "After the falling-block section, before the giant sword room, look for a narrow ceiling shaft. From the high ledge to its left, jump right, air-dash, then release charged Speed Burner. Catch the shaft wall and climb.",
+          "media": [
+            {
+              "src": "assets/centipede-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/688.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/centipede(8).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "return"
+        }
+      ],
+      "weakness": "Silk Shot",
+      "sprite": {
+        "src": "assets/centipede-boss-still.png",
+        "width": 63,
+        "height": 77,
+        "source": "https://megaman.retropixel.net/mmx/2/sprites.php"
+      }
+    },
+    {
+      "id": "snail",
+      "name": "Crystal Snail",
+      "area": "Energen Crystal",
+      "weapon": "Magnet Mine",
+      "reward": "Crystal Hunter",
+      "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/689.html",
+      "now": "Heart + Head Parts",
+      "tip": "Use Magnet Mine to knock him out of his shell. Keep pressure on him and stay away from the shell when he tries to reclaim it.",
+      "items": [
+        {
+          "id": "snail-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Ride Armor; Strike Chain helps",
+          "when": "First visit",
+          "text": "Take the first Ride Armor back left. Drop into the earlier pit while holding left to land on a shelf. Dash-jump left across the gap and hold Jump to hover. Before the hover ends, press Up + Jump to eject left. Use Strike Chain to catch the far wall if needed.",
+          "extra": "<a href=\"https://www.youtube.com/watch?v=8zgJ1vQn3EE&t=25s\" target=\"_blank\" rel=\"noopener\">Watch the jump at 0:25 ↗</a>",
+          "media": [
+            {
+              "src": "assets/snail-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/689.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/snail(2).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        },
+        {
+          "id": "snail-head",
+          "type": "armor",
+          "name": "Head Parts",
+          "need": "Nothing",
+          "when": "First visit",
+          "text": "After the crystal miniboss and the sliding crystal chase, reach the deep pit. Slide down its left wall instead of jumping across. Enter the side tunnel, destroy the crystal enemies, and walk left to the capsule.",
+          "extra": "Adds the Item Tracer. Select it to scan for hidden passages.",
+          "media": [
+            {
+              "src": "assets/snail-head.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/689.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/snail(7).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        }
+      ],
+      "weakness": "Magnet Mine",
+      "sprite": {
+        "src": "assets/snail-boss-still.png",
+        "width": 64,
+        "height": 51,
+        "source": "https://megaman.retropixel.net/mmx/2/sprites.php"
+      }
+    },
+    {
+      "id": "ostrich",
+      "name": "Overdrive Ostrich",
+      "area": "Desert Base",
+      "weapon": "Crystal Hunter",
+      "reward": "Sonic Slicer",
+      "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/681.html",
+      "now": "Heart + Leg Parts",
+      "tip": "Use Crystal Hunter to freeze him. Wait for him to thaw, then hit him again. Jump over the ground slicers.",
+      "items": [
+        {
+          "id": "ostrich-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Ride Chaser",
+          "when": "First visit; fallback on a return trip",
+          "text": "Keep the bike through the desert ramps and into the building. Ride across the raised spike bed near the end to collect the heart; turn before the spike wall. If the bike breaks, continue and get the Leg Parts.",
+          "extra": "Fallback: return with Arm Parts and Speed Burner. From the left ledge, air-dash right and release charged Speed Burner across the spikes. Expect to lose a life after collecting it; the heart stays collected.",
+          "media": [
+            {
+              "src": "assets/ostrich-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/681.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/ostrich(7).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        },
+        {
+          "id": "ostrich-legs",
+          "type": "armor",
+          "name": "Leg Parts",
+          "need": "Spin Wheel",
+          "when": "First visit — after the heart’s spike bed",
+          "text": "Near the end, past the scorpion enemies, climb onto the upper-right ledge before the final door. Cut through the gray blocks with Spin Wheel and enter the capsule.",
+          "extra": "Adds air dash. Jump normally, then press Dash in midair.",
+          "media": [
+            {
+              "src": "assets/ostrich-legs.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/681.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/ostrich(8).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "first"
+        }
+      ],
+      "weakness": "Crystal Hunter",
+      "sprite": {
+        "src": "assets/ostrich-boss-still.png",
+        "width": 81,
+        "height": 69,
+        "source": "https://megaman.retropixel.net/mmx/2/sprites.php"
+      }
+    }
+  ],
+  "warning": {
+    "id": "hunters",
+    "label": "MISSABLE · PERMANENT FOR THIS RUN",
+    "title": "Want to restore Zero? Stop after boss 2.",
+    "text": "After Wheel Gator, recover all three Zero parts before defeating another Maverick. The X-Hunters can leave permanently as you clear bosses. Return trips cannot undo that choice.",
+    "link": "#zero-details",
+    "linkText": "Open the Zero-parts detour"
+  },
+  "routes": [
+    {
+      "id": "standard",
+      "name": "Standard",
+      "subtitle": "No Zero-parts detour",
+      "description": "Follow the weapon chain, collect the upgrades, then fight Zero near the end.",
+      "steps": [
+        {
+          "title": "Clear the intro",
+          "text": "X starts with ground dash."
+        },
+        {
+          "title": "Defeat bosses 1–8",
+          "text": "Follow the boss flow below; skip the X-Hunter detour.",
+          "href": "#boss-flow"
+        },
+        {
+          "title": "Finish the return trips",
+          "text": "Collect all 4 armor parts, 8 hearts and 4 Sub Tanks.",
+          "href": "#cleanup"
+        },
+        {
+          "title": "Enter the fortress",
+          "text": "Shoryuken is optional. Fight Zero, then Sigma.",
+          "href": "#fortress"
+        }
+      ]
+    },
+    {
+      "id": "completionist",
+      "name": "Completionist",
+      "subtitle": "Restore Zero + all pickups",
+      "description": "The same boss order, with a mandatory pause after boss 2 to preserve the Zero route.",
+      "steps": [
+        {
+          "title": "Intro → Wire Sponge → Wheel Gator",
+          "text": "Collect Sponge’s heart and Sub Tank along the way.",
+          "href": "#boss-flow"
+        },
+        {
+          "title": "STOP · Recover all 3 Zero parts",
+          "text": "Find Violen, Serges and Agile. Do not defeat boss 3 yet.",
+          "href": "#zero-details",
+          "critical": true
+        },
+        {
+          "title": "Resume bosses 3–8",
+          "text": "Bubble Crab through Overdrive Ostrich.",
+          "href": "#crab"
+        },
+        {
+          "title": "Return trips → Shoryuken → fortress",
+          "text": "Complete the 16 upgrades and bonus capsule. Zero helps you instead of fighting you.",
+          "href": "#cleanup"
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "stage": "gator",
+      "title": "Get the Arm Parts first",
+      "items": [
+        "gator-arms",
+        "gator-heart"
+      ]
+    },
+    {
+      "stage": "crab",
+      "title": "Use charged Bubble Splash",
+      "items": [
+        "crab-tank",
+        "crab-heart"
+      ]
+    },
+    {
+      "stage": "moth",
+      "title": "Freeze a step to the roof",
+      "items": [
+        "moth-heart"
+      ]
+    },
+    {
+      "stage": "centipede",
+      "title": "Keep the ceiling turret intact",
+      "items": [
+        "centipede-heart",
+        "centipede-tank"
+      ]
+    },
+    {
+      "stage": "ostrich",
+      "title": "Only if you missed the bike pickup",
+      "items": [
+        "ostrich-heart"
+      ]
+    }
+  ],
+  "detour": {
+    "id": "zero-details",
+    "title": "The Zero-parts detour",
+    "intro": "After boss 2, check the stage-select map for X-Hunter markers. Their stage assignments move; there is no fixed hunter order.",
+    "steps": [
+      "Enter a marked stage and reach its side room before the Maverick boss. Defeat the hunter and take the part.",
+      "Repeat until you have beaten Violen, Serges and Agile. A charged X-Buster works if you lack their weaknesses.",
+      "To reshuffle the markers, enter a cleared stage and use Exit. In an uncleared stage, take the part, then use a game over to return to stage select without defeating its Maverick. You keep the part.",
+      "Only after all three parts are recovered, resume at Bubble Crab."
+    ],
+    "doors": [
+      {
+        "stage": "sponge",
+        "text": "At the rising elevators, slide down the wall below the lifts and follow the lower passage right."
+      },
+      {
+        "stage": "gator",
+        "text": "Ride the second upward platform past the normal exit, through the spike-lined shaft to the top-right door."
+      },
+      {
+        "stage": "crab",
+        "text": "Follow the giant fish to the far-right underwater wall. Climb to the passage above the normal route into the base."
+      },
+      {
+        "stage": "stag",
+        "text": "Use the second beetle to break the upper wall. Climb through the opening to the side room."
+      },
+      {
+        "stage": "moth",
+        "text": "In the long vertical shaft, reach the passage guarded by a shield robot. Defeat it and dash wall-jump onto its ledge."
+      },
+      {
+        "stage": "centipede",
+        "text": "Dash ahead of the falling blocks. Reach the door at the far end before the blocks seal the passage."
+      },
+      {
+        "stage": "snail",
+        "text": "Use the Ride Armor to smash the crystal barrier near where you find it. Ride the small moving platforms up the shaft."
+      },
+      {
+        "stage": "ostrich",
+        "text": "Near the beginning, use Spin Wheel to cut the breakable blocks beside the downward ladder."
+      }
+    ],
+    "recoveryNote": "Ordinary return trips cannot recover a part after its X-Hunter has left. Continue on the standard path, or restore an earlier save/password to preserve the completionist route.",
+    "timing": "After boss 2",
+    "sourcesHtml": "<p class=\"source-link\"><a href=\"https://www.mmhp.net/GameHints/MMX2.html\" target=\"_blank\" rel=\"noopener\">Hunter rules & door reference ↗</a> · <a href=\"https://www.honestgamers.com/guides/mega-man-x2/31/read/695.html\" target=\"_blank\" rel=\"noopener\">Hunter fight strategies ↗</a></p>"
+  },
+  "extraSections": [
+    "<section id=\"shoryuken\"><div class=\"section-head\"><h2>Bonus: Shoryuken</h2><span class=\"eyebrow\">X-Hunter stage 3</span></div><p><b>Bring:</b> all 4 armor parts, all 8 hearts, all 4 Sub Tanks, and full health when entering the hidden capsule room. Zero’s parts are not required. Bring filled tanks to heal after the spike section.</p><ol><li>After the vertical elevator section, take the <b>upper ladder</b>. Freeze a bat with Crystal Hunter and use it as a step.</li><li>Cross the upper spike route with air dashes and charged Speed Burner. At the final curved spike passage, move right, drop, then dash back left toward the 1-Up.</li><li>At the following downward shaft, <b>slide against the left wall</b>. Refill health before entering the hidden passage. Walk left to the capsule.</li></ol><p>To use it: at full health, stand on the ground with the X-Buster selected. Press <b>forward → down → down-forward + Fire</b>. Mirror the directions when facing left.</p><p class=\"route-intro\"><a href=\"https://gamefaqs.gamespot.com/snes/588480-mega-man-x2/cheats\">Unlock requirements ↗</a> · <a href=\"https://www.mmhp.net/GameHints/MMX2.html\">Spike route and input ↗</a></p></section>",
+    "<section id=\"fortress\"><div class=\"section-head\"><h2>Fortress boss order</h2><span class=\"eyebrow\">Finish the run</span></div><div class=\"table-wrap\"><table><thead><tr><th>Stage</th><th>Fight</th><th>Use / do</th></tr></thead><tbody><tr><td>1</td><td>Neo Violen</td><td>Bubble Splash. Use the blocks as cover from his mace.</td></tr><tr><td>2</td><td>Serges Tank</td><td>Giga Crush clears the four cannons if charged; otherwise use the Buster. Then use charged Sonic Slicer on Serges.</td></tr><tr><td>3</td><td>Agile Flyer</td><td>Magnet Mine. Collect Shoryuken before this boss if you want it.</td></tr><tr><td>4</td><td>Eight Maverick rematches</td><td>Any order. Reuse the boss flow; Sonic Slicer for Wire Sponge.</td></tr><tr><td>5</td><td>Zero, if parts are missing</td><td>Speed Burner or charged Buster. Shoot between his attacks.</td></tr><tr><td>5</td><td>Neo Sigma → Sigma Virus</td><td>Sonic Slicer for the clawed form; Strike Chain for the wireframe head. Destroy spawned enemies for health and weapon energy.</td></tr></tbody></table></div><p class=\"route-intro\"><a href=\"https://megaman.retropixel.net/mmx/2/bosses.php\">Fortress boss reference ↗</a></p></section>"
+  ],
+  "videos": [
+    {
+      "id": "7M0ZQz9UXjs",
+      "title": "All 16 pickups",
+      "author": "Birria Geeks",
+      "text": "A short walkthrough for armor, hearts and tanks."
+    },
+    {
+      "id": "8zgJ1vQn3EE",
+      "start": 25,
+      "title": "Crystal Snail’s difficult heart jump",
+      "author": "TankAnSpank",
+      "text": "Starts at the Ride Armor jump. The return is shown at 0:38."
+    },
+    {
+      "id": "gwprVcAvzRY",
+      "title": "Pickups and Shoryuken",
+      "author": "X GOD GAME",
+      "text": "Longer gameplay reference for the bonus capsule."
+    }
+  ],
+  "checkpoints": [
+    {
+      "afterStage": "gator",
+      "title": "STOP AFTER 02 · Restoring Zero?",
+      "text": "Recover all 3 parts before boss 3.",
+      "href": "#zero-details",
+      "linkText": "Take the detour",
+      "stageText": "After this boss, stop and recover all 3 Zero parts."
+    }
+  ],
+  "routeIntro": "Both paths can collect every armor part, heart and Sub Tank. The difference is the Zero detour and the final encounter.",
+  "flowIntro": "Read from 01 to 08. Each reward is the next boss’s weakness. Start Wire Sponge with the X-Buster; use Sonic Slicer in his rematch.",
+  "basicsHtml": "<summary>Before you start: movement, charging and saving</summary><ul><li>Ground dash is available from the start. Leg Parts add air dash: jump normally, then press Dash.</li><li>Charged special weapons require Arm Parts. Hold Fire with that weapon selected, then release.</li><li>“Need” describes the method shown; advanced tricks can bypass some requirements.</li><li>Permanent pickups survive death. On completed stages, use Exit from the pause menu. Record your password before ending a session.</li><li>Fill Sub Tanks by collecting health at full life; use them from the pause menu.</li></ul>",
+  "sourcesHtml": "<p>Pickup screenshots by <a href=\"https://www.honestgamers.com/guides/mega-man-x2/31/\" target=\"_blank\" rel=\"noopener\">HonestGamers</a> contributors, shown with their source links. These screenshots were made by someone else; they are not original captures for this guide. Game artwork and sprites © Capcom.</p><p>Boss sprites: <a href=\"https://megaman.retropixel.net/mmx/2/sprites.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ / RetroPixel</a>. Static frames preserve the original pixel art without continuous animation.</p><p>Route and movement cross-checks: <a href=\"https://www.mmhp.net/GameHints/MMX2.html\" target=\"_blank\" rel=\"noopener\">MMHP</a>, <a href=\"https://megaman.retropixel.net/mmx/2/bosses.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ</a>, and the stage-specific HonestGamers references. This guide is for the original Mega Man X2.</p>"
+}
