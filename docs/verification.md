@@ -31,3 +31,5 @@ X2 detour update: all eight entrance/approach images load from local assets. Ver
 Game routes were cross-checked against the linked stage/item sources; see content-audit.md for decisions and resolved contradictions. All added images were visually inspected, including the replacement X4 isolated sprites. The site has not been validated by a complete console/emulator playthrough. Frame fit is specific to measured viewports and normal text size; longer future content and enlarged text can require scrolling.
 
 Reading state belongs to one browser profile and origin. Clearing browser data removes it; it does not sync between devices or migrate from a previous hostname.
+
+2026-09-18: Added source-checked Useful tips sections to X1, X2, X3 and both X4 campaigns, with contextual refill links. Built each completed game update sequentially; verify-all passed for all six HTML pages, local media, unique anchors, return cards and character differences. git diff --check passed. Crystal Snail movement and refill advice are source/user-checked, not emulator-tested. No new media, scripts, styles or dependencies were added to the site. X5-X8 remain outside this update.

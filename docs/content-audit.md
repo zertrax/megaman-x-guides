@@ -57,3 +57,7 @@ Added entrance bats for health/lives, charged Rolling Shield with its Arm Parts 
 ## 2026-09-18 · X3 practical tips
 
 Added Tombort health/weapon drops from Frost Shield/Acid Burst, Gold Armor stand-still recovery with an explicit warning against taking the individual Head Chip, and the Doppler 3 rematch supply pod. Restricted the drop guarantee to Tomborts, as described by HonestGamers Neon Tiger. Recovery and chip lockout checked against HonestGamers Blast Hornet and MMHP; supply pod against MMHP. Added basics and Neon Tiger tank links. No arbitrary damage, cheats or glitches. Source-checked, not gameplay-tested.
+
+## 2026-09-18 · X4 practical tips (both campaigns)
+
+Added the Frost Walrus opening upper-path supply run with character-specific access (Lightning Web / Kuuenbu), cleared-stage Exit/re-entry, and tank-gauge checks. X gets helmet weapon economy and the intended Raiden route into Dragoon; Zero gets Rakuhouha energy management and Kuuenzan against Cyber Peacock spheres. Codeman original-game walkthrough and Mega Man XZ techniques support these mechanics. Removed the inherited X1–X3 full-life-only wording from X4 basics: MMKB describes capsule contributions even below full life, while older walkthroughs reuse generic overflow wording. New instructions simply say collect capsules and check tank gauges, without claiming numerical refill rates. No new cheats or exploits. Source-checked, not gameplay-tested.
