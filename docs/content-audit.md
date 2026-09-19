@@ -53,3 +53,7 @@ Added the built-in Bubble Crab charged Silk Shot health room (Arm Parts required
 ## 2026-09-18 · X1 practical tips
 
 Added entrance bats for health/lives, charged Rolling Shield with its Arm Parts prerequisite, final-stage wall-crawler refills, and Boomerang Cutter disarming Mammoth/Octopus. MMHP X1 and HonestGamers Armored Armadillo support these ordinary mechanics. Life drops are not described as guaranteed. Added basics and tank-card links. Source-checked, not gameplay-tested.
+
+## 2026-09-18 · X3 practical tips
+
+Added Tombort health/weapon drops from Frost Shield/Acid Burst, Gold Armor stand-still recovery with an explicit warning against taking the individual Head Chip, and the Doppler 3 rematch supply pod. Restricted the drop guarantee to Tomborts, as described by HonestGamers Neon Tiger. Recovery and chip lockout checked against HonestGamers Blast Hornet and MMHP; supply pod against MMHP. Added basics and Neon Tiger tank links. No arbitrary damage, cheats or glitches. Source-checked, not gameplay-tested.
