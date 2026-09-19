@@ -49,3 +49,7 @@ These checks are source comparisons, not a completed emulator or console playthr
 ## 2026-09-18 · X2 practical tips
 
 Added the built-in Bubble Crab charged Silk Shot health room (Arm Parts required), full-health overflow into owned Sub Tanks, and ordinary enemy-dispenser drops. Added contextual links from basics and the Bubble Crab tank card, also reused by Return trips. Sources: MMHP X2 General Tips; StrategyWiki Energen Crystal for pulsed Ride Armor hovering. Replaced Crystal Snail heart instructions with dash/slide, jump, repeated thruster engagement, and Up + Jump ejection; Strike Chain remains an optional assist. User correction agrees with the published hover technique. No glitches, turbo automation, or new media. Source-checked; not tested in a game.
+
+## 2026-09-18 · X1 practical tips
+
+Added entrance bats for health/lives, charged Rolling Shield with its Arm Parts prerequisite, final-stage wall-crawler refills, and Boomerang Cutter disarming Mammoth/Octopus. MMHP X1 and HonestGamers Armored Armadillo support these ordinary mechanics. Life drops are not described as guaranteed. Added basics and tank-card links. Source-checked, not gameplay-tested.
